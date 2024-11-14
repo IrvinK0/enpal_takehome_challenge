@@ -1,0 +1,35 @@
+name: enpal
+description: "Enpal test"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  equatable:
+  intl:
+  flutter:
+    sdk: flutter
+  api_client:
+    path: packages/api_client
+  caching:
+    path: packages/caching
+  flutter_bloc:
+  bloc:
+  stream_transform:
+  syncfusion_flutter_charts: ^27.1.58
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  bloc_test:
+  mocktail:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

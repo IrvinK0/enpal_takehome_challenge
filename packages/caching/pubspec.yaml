@@ -1,0 +1,16 @@
+name: caching
+description: The interface for a Cache providing access to monitoring data.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  shared_preferences: ^2.3.3
+
+dev_dependencies:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+  mockito:
